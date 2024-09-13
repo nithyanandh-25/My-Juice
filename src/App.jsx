@@ -1,5 +1,6 @@
 import './App.css'
 import Img1 from './assets/apple_j_img.jpeg';
+import Img2 from './assets/orange_j_img.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'; // Import the specific icon
 
@@ -42,7 +43,7 @@ function App() {
         </div>
       </div>
       <div className='product'>
-         <img src={Img1} alt="apple" className='product-image'/>
+         <img src={Img2} alt="apple" className='product-image'/>
         <div className='product-info'>
           <h3>apple</h3>
           <p>Description of apple</p>
