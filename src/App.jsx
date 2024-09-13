@@ -21,6 +21,7 @@ function App() {
         <li>Fruit Juices</li>
         <li>Mocktails</li>
         <li>Tea Coop</li>
+        <li>Add to Cart</li>
       </ul>
     </div>
     <div className='background-img'>
