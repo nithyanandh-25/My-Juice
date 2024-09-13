@@ -1,0 +1,145 @@
+/* src/App.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green background */
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar {
+  width: 1200px;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+}
+
+.search-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  color: #4CAF50; /* Green text */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-button:hover {
+  background-color: #f1f1f1;
+}
+
+/* Navigation bar styles */
+.nav-bar {
+  background-color: #333; /* Dark background */
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-align: left;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.nav-bar li {
+  padding: 14px 20px;
+  color: #4CAF50;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nav-bar li:hover {
+  background-color: #cacaca; /* Darker grey for hover effect */
+  border-bottom: 4px solid #4CAF50;
+}
+
+/* Background image styles */
+.background-img {
+  position: fixed; /* Fix the image in place */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+  z-index: -1; /* Send image to background */
+}
+
+.background-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the entire area */
+  opacity: 0.9; /* Make image semi-transparent */
+}
+
+/* Paragraph styles */
+.para {
+  padding: 40px 20px;
+  line-height: 1.8;
+  background: rgba(255,255,255,0.5);
+  margin: 80px auto 20px;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better readability */
+  position: relative;
+  z-index: 4;
+}
+
+.para p {
+  margin: 0;
+}
+
+/* Products list styles */
+.product-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of products to next line if needed */
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px; /* Add space between products */
+}
+
+.product {
+  width: 45%; /* Adjust width as needed */
+  background-color: rgba(238, 238, 238, 0.9); /* Light grey with transparency */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+  overflow: hidden; /* Hide overflow */
+  position: relative;
+  text-align: center;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-info {
+  padding: 10px;
+}
+
+.product-info h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.product-info p {
+  margin: 0;
+}
